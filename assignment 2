@@ -1,0 +1,7 @@
+n=[1,2,3,1,5,3,6]
+m=[]
+for i in n:
+    if i not in m:
+        m.append(i)
+n=m
+print(n)
